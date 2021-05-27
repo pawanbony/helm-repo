@@ -3,11 +3,20 @@ entries:
   sample-nginx:
   - apiVersion: v2
     appVersion: "1"
-    created: "2021-05-27T14:04:44.971991-04:00"
+    created: "2021-05-27T14:31:53.430882-04:00"
+    description: my custom nginx chart
+    digest: cad7c3bf873c167807a3cd1fd70becdc052899f0ec1f3c50492cd98ddb61d8d0
+    name: sample-nginx
+    urls:
+    - sample-nginx-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: "1"
+    created: "2021-05-27T14:31:53.430673-04:00"
     description: my custom nginx chart
     digest: 52233e9cbecec2ed26e1b13bc76dad7d442b87cc4041d208e5cc1f8670e0bc6e
     name: sample-nginx
     urls:
     - sample-nginx-0.1.0.tgz
     version: 0.1.0
-generated: "2021-05-27T14:04:44.970832-04:00"
+generated: "2021-05-27T14:31:53.42992-04:00"
