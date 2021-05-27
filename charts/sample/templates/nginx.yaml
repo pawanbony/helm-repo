@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: nginx
+  name: nginx
+spec:
+  replicas: {{ .Values.repicaCount }}
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - image: repository.intranet.roche.com:6563/com.gene.bioinfo.ms/nginx:latest
+        name: nginx
+      imagePullSecrets:
+        - name: jfrogcred
