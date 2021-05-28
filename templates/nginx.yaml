@@ -15,7 +15,7 @@ spec:
         app: nginx
     spec:
       containers:
-      - image: repository.intranet.roche.com:6563/com.gene.bioinfo.ms/2048demo:late
+      - image: repository.intranet.roche.com:6563/com.gene.bioinfo.ms/2048demo:latest
         name: nginx
       imagePullSecrets:
         - name: jfrogcred
