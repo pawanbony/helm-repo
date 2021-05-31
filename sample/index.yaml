@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  sample-nginx:
+  - apiVersion: v1
+    appVersion: "1.1"
+    created: "2021-05-31T14:30:42.517524-04:00"
+    description: my custom nginx chart
+    digest: dcbd18dc93386f6ae7cdd860622a1fc5b0065290ab536aae267f51cd32a5b0de
+    name: sample-nginx
+    urls:
+    - https://pawanbony.github.io/helm-repo/sample-nginx-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-05-31T14:30:42.516468-04:00"
